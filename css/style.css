@@ -1,5 +1,4 @@
 html, body {
-  overflow-x: hidden;
   height: 100%;
   width: 100%;
   font-family: 'Jost', sans-serif;
@@ -126,7 +125,7 @@ ul.social li {
   
 /*===== FIXED BACKGROUND IMG =====*/
   
-/* .fixed-background {
+.fixed-background {
   padding: 12rem 0;
   border-top: .05rem solid black;
   border-bottom: .05rem solid black;
@@ -137,7 +136,7 @@ ul.social li {
 .fixed {
   background-image: url('../imac.png');
   position: fixed;
-} */
+} 
 
 /*============= Experience =============*/
 #experience {
@@ -302,7 +301,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('../imac.png');
+  background-image: url('../me.jpg');
   position: fixed;
   display: block;
   top: 0;
