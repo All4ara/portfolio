@@ -45,7 +45,7 @@
             
 
         <!-- Carousel Content -->
-        <div class="carousel-inner">
+        <div id="page-top" class="carousel-inner">
 
            <div class="carousel-item active">
                 <img src="background1.jpg" class="w-100" alt="Background 1">
@@ -277,13 +277,18 @@
 		</div>
 	</footer>
     <!-- End Footer -->
-
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <section class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </section>
     <!-- Start Socket -->
 	<div class="socket text-light text-center py-4">
 		<p>&copy; <a href="home.html" target="_blank">2020 Elazarov.com/ariel</a> </p>
 	</div>
 	<!-- End Socket -->
-
+    
     <!-- Script Source Files -->
 
 	<!-- jQuery -->
@@ -294,7 +299,7 @@
 	<script src="js/popper.min.js"></script>
 	<!-- Font Awesome -->
 	<script src="js/all.min.js"></script>
-
-	<!-- End Script Source Files -->
+    <!-- Scroll-to-top JS -->
+    <script src="/script.js"></script>
 </body>
 </html>

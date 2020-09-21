@@ -176,7 +176,20 @@ footer a:hover,
   border-top: .1rem solid gray;
 }  
   
+
+.scroll-to-top {
+  z-index:3;
+  right:1rem;
+  bottom:1rem;
   
+}
+.scroll-to-top a{
+  width:2.5rem;
+  height:2.5rem;
+  background-color:rgba(33,37,41,.5);
+  line-height:3.1rem
+}
+
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
