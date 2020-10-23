@@ -78,7 +78,7 @@ html, body {
 
 p.lead {
   font-size: 1.4rem;
-
+  
 }
 
 /*============= About Me =============*/
@@ -326,4 +326,34 @@ figure {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
+}
+
+
+.float1 {
+  animation: expandShrink1 2s 3 ;
+}
+
+@keyframes expandShrink1 {
+  50%{
+    width: 100px;
+    height: 400px;
+    
+  }
+}
+
+.float2 {
+  animation: expandShrink2 2s infinite;
+}
+
+@keyframes expandShrink2 {
+  0%{
+    height: 30px;
+  }
+  50%{
+    height: 50px;
+    
+  }
+   100%{
+    width: 70px;
+  } 
 }
