@@ -90,6 +90,7 @@ p.lead {
 /*============= SOCIAL MEDIA STICKY BAR =============*/
 
 .jumbotron {
+  height: 4rem;
   background: linear-gradient(to right, #f2f2f2, #FBFBFB);
   padding: 1rem 0 .5rem;
   margin-bottom: 0;
@@ -330,13 +331,13 @@ figure {
 
 
 .float1 {
-  animation: expandShrink1 2s 3 ;
+  animation: expandShrink1 1s 3 ;
 }
 
 @keyframes expandShrink1 {
   50%{
-    width: 100px;
-    height: 400px;
+    
+    height: 600px;
     
   }
 }
@@ -348,12 +349,14 @@ figure {
 @keyframes expandShrink2 {
   0%{
     height: 30px;
+    width: 30px;
   }
   50%{
-    height: 50px;
-    
+    height: 40px;
+    width: 40px;
   }
    100%{
-    width: 70px;
+    height: 30px;
+    width: 30px;
   } 
 }
