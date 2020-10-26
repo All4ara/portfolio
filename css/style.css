@@ -299,6 +299,11 @@ footer a:hover,
   .carousel-caption p {
     font-size: .5rem;
   }
+  .skill-pic {
+    height: 10rem;
+    width: 12rem;
+  
+  }
   
 }
 
