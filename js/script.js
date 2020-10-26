@@ -43,12 +43,12 @@ document.querySelector('.container-pic').onclick = function (event){
         let row = 
             `<div class="creative-skills row justify-content-center my-5 text-center">
                 <div class="col-md-6 col-lg-4 py-3">
-                    <img class="skill-pic" src="sneakers.jpeg" style="width: 360px" alt="sneaker">
+                    <img class="skill-pic" src="sneakers.jpeg" style="width: 100%;height: 100%" alt="sneaker">
                 </div>
                 
                 
                 <div class="col-md-6 col-lg-4 py-3">
-                    <img class="skill-pic" src="funko.jpeg" style="width: 360px" alt="sneaker">
+                    <img class="skill-pic" src="funko.jpeg" style="width: 100%" alt="sneaker">
                 </div>
                 
                 
