@@ -53,7 +53,7 @@ document.querySelector('.container-pic').onclick = function (event){
                 
                 
                 <div class="col-md-6 col-lg-4 py-3">
-                    <img class="skill-pic" src="sneaker2.jpeg" style="width: 100%" alt="sneaker">
+                    <img class="skill-pic" src="sneaker2.jpeg" style="width: 100%;height: 20rem" alt="sneaker">
                 </div>
             </div>`;
 
