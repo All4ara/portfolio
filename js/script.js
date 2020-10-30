@@ -59,6 +59,7 @@ document.querySelector('.container-pic').onclick = function (event){
 
     document.querySelector('.container-pic').innerHTML += row; 
     document.querySelector('.pic-div').remove();
+
     clicked = true;
     } else {
        let row = 
@@ -106,6 +107,27 @@ document.querySelector('.container-pic').onclick = function (event){
     }
 
 
+}
+
+function isElementOutViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return rect.bottom < 0 || rect.right < 0 || rect.left > window.innerWidth || rect.top > window.innerHeight;
+}
+let p = document.querySelector("#me")
+window.onscroll = function (e) {
+    // console.log(e)
+    console.log(
+        isElementOutViewport(p)
+    )
+
+    let me = document.querySelector('.ariel')
+
+    // if(isElementOutViewport(p) == false) {
+    //    let pic = `<img src="me.jpg" alt="Ariel Elazarov" class="w-100 ariel">`;
+
+    //    document.querySelector('.meParent').innerHTML += pic;
+       
+    // }
 }
 
 
